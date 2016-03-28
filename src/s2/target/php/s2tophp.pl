@@ -65,7 +65,7 @@ else {
 my $layer = load_layer($infile, $layertype, $ck);
 
 
-# LAME: Need to optimize this a bit so that it
+# FIXME: Need to optimize this a bit so that it
 # doesn't do so many passes over the entire array
 
 my $nodes = $layer->getNodes();
